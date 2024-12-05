@@ -203,3 +203,37 @@ span.highlight {
     overflow:hidden;
     display:block;
 }
+
+
+.image-compare-container {
+  width: 63%;
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  line-height: 0;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.imageMerge {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+.cropped-image{
+    width: 100%;
+    overflow:hidden;
+    display:block;
+}
