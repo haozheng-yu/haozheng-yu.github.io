@@ -161,48 +161,48 @@ Indoor 360 depth estimation is an important task in computer vision for its broa
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <h3>
-                    Reflection Direction Parameterization
-                </h3>
-                <div class="text-justify">
-                    Previous approaches directly input the camera's view direction into the MLP to predict outgoing radiance. We show that instead using the reflection of the view direction about the normal makes the emittance function significantly easier to learn and interpolate, greatly improving our results.
-                    
-                    <br><br>
-                    
-                </div>
-                <div class="text-center">
-                    <video id="refdir" width="40%" playsinline autoplay loop muted>
-                        <source src="video/reflection_animation.mp4" type="video/mp4" />
-                    </video>
-                </div>
-            </div>
-        </div>
+<!--        <div class="row">-->
+<!--            <div class="col-md-8 col-md-offset-2">-->
+<!--                <h3>-->
+<!--                    Reflection Direction Parameterization-->
+<!--                </h3>-->
+<!--                <div class="text-justify">-->
+<!--                    Previous approaches directly input the camera's view direction into the MLP to predict outgoing radiance. We show that instead using the reflection of the view direction about the normal makes the emittance function significantly easier to learn and interpolate, greatly improving our results.-->
+<!--                    -->
+<!--                    <br><br>-->
+<!--                    -->
+<!--                </div>-->
+<!--                <div class="text-center">-->
+<!--                    <video id="refdir" width="40%" playsinline autoplay loop muted>-->
+<!--                        <source src="video/reflection_animation.mp4" type="video/mp4" />-->
+<!--                    </video>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
 
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <h3>
-                    Integrated Directional Encoding
-                </h3>
-                <div class="text-justify">
-                    We explicitly model object roughness using the expected values of a set of spherical harmonics under a von Mises-Fisher distribution whose concentration parameter varies spatially:
-                </div>
-                <br>
-                <div class="text-center">
-                    <img src="./img/ide.png" width="50%">
-                </div>
-                <br>
-                <div class="text-justify">
-                    We call this <i>Integrated Directional Encoding</i>, and we show experimentally that it allows sharing the emittance functions between points with different roughnesses. It also enables scene editing after training. Theoretically, our encoding is stationary on the sphere, similar to the Euclidean stationarity of NeRF's positional encoding. <br><br>
-                </div>
-                <div class="text-center">
-                    <video id="ide" width="100%" playsinline autoplay controls loop muted>
-                        <source src="video/ide_animation.mp4" type="video/mp4" />
-                    </video>
-                </div>
-            </div>
-        </div>
+<!--        <div class="row">-->
+<!--            <div class="col-md-8 col-md-offset-2">-->
+<!--                <h3>-->
+<!--                    Integrated Directional Encoding-->
+<!--                </h3>-->
+<!--                <div class="text-justify">-->
+<!--                    We explicitly model object roughness using the expected values of a set of spherical harmonics under a von Mises-Fisher distribution whose concentration parameter varies spatially:-->
+<!--                </div>-->
+<!--                <br>-->
+<!--                <div class="text-center">-->
+<!--                    <img src="./img/ide.png" width="50%">-->
+<!--                </div>-->
+<!--                <br>-->
+<!--                <div class="text-justify">-->
+<!--                    We call this <i>Integrated Directional Encoding</i>, and we show experimentally that it allows sharing the emittance functions between points with different roughnesses. It also enables scene editing after training. Theoretically, our encoding is stationary on the sphere, similar to the Euclidean stationarity of NeRF's positional encoding. <br><br>-->
+<!--                </div>-->
+<!--                <div class="text-center">-->
+<!--                    <video id="ide" width="100%" playsinline autoplay controls loop muted>-->
+<!--                        <source src="video/ide_animation.mp4" type="video/mp4" />-->
+<!--                    </video>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
 
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
@@ -300,7 +300,7 @@ Indoor 360 depth estimation is an important task in computer vision for its broa
                 </p>
             </div>
         </div>
-    </div>
+<!--    </div>-->
 
 
 </body></html>
